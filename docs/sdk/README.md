@@ -24,9 +24,9 @@ models = erniebot.Model.list()
 
 print(models)
 # ernie-3.5               文心大模型（ernie-3.5）
+# ernie-3.5-8k            文心大模型（ernie-3.5-8k）
 # ernie-lite              文心大模型（ernie-lite）
 # ernie-4.0               文心大模型（ernie-4.0）
-# ernie-longtext          文心大模型（ernie-longtext）
 # ernie-speed             文心大模型（ernie-speed）
 # ernie-speed-128k        文心大模型（ernie-speed-128k）
 # ernie-tiny-8k           文心大模型（ernie-tiny-8k）
