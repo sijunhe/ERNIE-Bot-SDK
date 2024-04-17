@@ -14,7 +14,7 @@ ERNIEBot Researcher能够精心编撰内容详尽、真实可信且立场公正�
 
 主要思想是运行“planner”和“execution” agents，而planner生成问题进行研究，execution agents根据每个生成的研究问题寻求最相关的信息。最后，planner 过滤并汇总所有相关信息，并创建一份研究报告。
 
-Agents利用ernie-4.0和ernie-longtext来完成研究任务， ernie-4.0主要用于做决策和规划，ernie-longtext主要用于撰写报告。
+Agents利用ernie-4.0和ernie-3.5-8k来完成研究任务， ernie-4.0主要用于做决策和规划，ernie-3.5-8k主要用于撰写报告。
 
 
 <div align="center">

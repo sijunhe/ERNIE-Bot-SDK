@@ -215,7 +215,7 @@ def generate_report(query, history=[]):
     target_path = f"{args.save_path}/{hashlib.sha1(query.encode()).hexdigest()}/revised"
     os.makedirs(target_path, exist_ok=True)
     llm = ERNIEBot(model="ernie-4.0")
-    llm_long = ERNIEBot(model="ernie-longtext")
+    llm_long = ERNIEBot(model="ernie-3.5-8k")
     build_index_function, retrieval_tool = get_retriver_by_type(args.framework)
 
     retriever_sets = get_retrievers(build_index_function, retrieval_tool)
